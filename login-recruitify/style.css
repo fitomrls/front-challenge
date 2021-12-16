@@ -277,3 +277,28 @@ header a img{
       transform: translate(-90px, 0%);
     }
   }
+
+  @media (max-width: 991px) {
+    header{
+        padding: 20px 15px 50px 10px;
+    }
+
+    header a img{
+        max-width: 95px;
+    }
+
+    .lan img{
+        max-width: 20px;
+    }
+
+    .lan span{
+        font-size: 13px;
+    }
+
+    .login-space img{
+        max-width: 50px;
+        padding-bottom: 1em;
+    }
+
+  }
+
