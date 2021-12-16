@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu", sans-serif;
+}
+
+body{
+    background-color: #013244;
+}
+
+/* paleta de colores */
+.bg{ 
+  color:#013244;
+}
+.inputs{ 
+    color: #1B4957;
+}
+.btn-submit {
+  color:  #02DF79;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: crimson;
+    padding: 20px 100px 50px 100px;
+}
+header a img{
+    max-width: 150px;
+}
+
+.lan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lan img{
+    max-width: 30px;
+}
+.lan span{
+    color: #fff;
+    font-weight: 400;
+    margin-left: 5px;
+}
